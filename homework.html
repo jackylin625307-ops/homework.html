@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name ="viewport"  content="width=device-width, initial- scale=1.0 ">
+      <link  rel="stylesheethref"href="https://fonts.   .com" >
+    <tittle> About me </tittle>
+</head>
+    <style>
+body {
+    font-family: "googleapis", sans-serif;
+}
+
+#page_container {
+    width: 1700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+}
+
+header {
+    background-color: #ffffff;
+    padding-bottom: 150px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    padding: 15px 0 20px 40px;
+}
+
+#logo img {
+    width: 110px;
+}
+
+#page_title {
+    width: 1000px;
+    float: left;
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 25px;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(18, 117, 184);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 30px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+nav li a:hover {
+    background-color: rgb(206, 231, 15);
+}
+
+#intro_block {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#intro_text {
+    text-align: justify;
+    width: 1000px;
+    flex-grow: 3;
+    padding: 20px 20px 0 20px;
+    color: rgb(0, 56, 139);
+    text-align: center;
+    
+}
+
+#intro_text p {
+    font-size: larger;
+}
+
+#intro_img {
+    width: 1200px;
+    flex-grow: 1;
+}
+
+#intro_img img {
+    width: 1200px;
+}
+
+video {
+     display: block;
+      width: 80%;
+      max-width: 1000px;
+    margin: 40px auto;
+      border-radius: 20px;
+     box-shadow: 0px 15px 40px rgba(0,0,0,0.3);
+       }
+</style>
+
+
+<body>
+      <div id="page_container">
+            <header>
+                  <div id="logo">
+                        <img src="kehan.webp" alt="rat logo">
+                  </div>
+                  <div id="page_tittle">
+                        <h1>About me</h1>
+                  </div>
+            </header>
+                 <nav>
+            <!-- ul>li*4>a-->
+             <ul>
+                 <li><a href="homework.html">Home</a></li>
+             </ul>
+                 </nav>     
+     <section id="intro_block">
+          <div id="intro_img">
+            <img src="images.webp" alt="About me">
+     </div>
+     <div id="intro_text">
+          <p>I am a student who has a strong interest in geography and history. I enjoy reading books and articles about different countries, cultures, and historical events, because they help me better understand how the world has developed and how people are connected. Exploring maps and learning about the past always makes me curious and motivated to learn more.</p>
+          <p>In my daily life, food is also an important part of my happiness. My favorite food is dumplings, especially because they are delicious and meaningful in Chinese culture. They remind me of family time and traditional festivals, which makes them even more special to me.</p>
+          <p>When it comes to sports, I am very active and energetic. I enjoy playing football and basketball in my free time. These sports not only help me stay healthy, but also teach me teamwork, discipline, and perseverance. Playing sports with friends is one of the best ways for me to relax and enjoy myself.</p>
+     </div>
+         </section>
+     <section id="football_block">
+    <video src="race.mp4" controls></video>
+<div id="intro_text">
+            <p>I am also a big fan of the football club Manchester United. I started following the team because of its long history, strong fighting spirit, and the influence it has had on world football. Manchester United is not just a club to me, but a symbol of perseverance, teamwork, and never giving up, even in difficult moments.</p>
+            <p>Over the years, I have enjoyed watching Manchester United’s matches and learning about its legendary players and memorable games. Supporting the team has helped me develop a deeper interest in football and has inspired me to stay positive and determined, both on and off the field.</p>
+            <p>Today’s match once again showed the spirit of Manchester United. The team played with confidence and discipline, controlling the game and creating chances step by step. In the end, Manchester United won the match 2–0 against Tottenham Hotspur. This victory was not only exciting to watch, but also a great example of teamwork and strategy.</p>
+        </div>
+    </section>
+
+</body>
+</html>
+    
